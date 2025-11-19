@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-  baseURL: 'https://todo-backend-6opi.onrender.com',
+  baseURL: 'https://todo-backend-vgjt.onrender.com', // .env was hidden so I used it to show the backend url directly
   headers: {
     'Content-Type': 'application/json',
   },
